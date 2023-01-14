@@ -3,7 +3,7 @@ cost = 0
 try:
     N = int(input('Введите количество билетов: '))
     if N <= 0:
-        raise ValueError("Значение должно быть больше 0")
+        raise ValueError("Значение должно быть больше 0!")
 except ValueError as error:
     print(error)
     print("Неверное значение")
